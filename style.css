@@ -46,6 +46,8 @@
 .price2 {
     color: var(--Dark-grayish-blue);
     float: right;
+    text-decoration: line-through;
+    font-size: 13px;
 }
 .cart {
   background-color: var(--Dark-cyan);
@@ -62,8 +64,8 @@
     padding-top: 9px;
 }
 .cart img {
-  width: 28px;
-    height: 28px;
+  width: 23px;
+    height: 23px;
 }
 .attribution {
   font-size: 11px;
