@@ -24,16 +24,20 @@
   font-family: var(--font);
   color: var(--Dark-grayish-blue);
   float: left;
+  margin-left: 65vh;
+
   
 }
 .main h1 {
     color: var(--Very-dark-blue);
 }
-img {
+.main .image-desktop {
     
     float: left;
     width: 239px;
     height: 360px;
+    border: 2px solid white;
+    border-radius: 15px 0px 0px 15px;
 }
 .price1{
     color: var(--Dark-cyan);
@@ -50,6 +54,7 @@ img {
     text-align: center;
     font-size: var(--font);
     height: 48px;
+    border: 2px solid var(--Dark-cyan) ;
     border-radius: 42px;
     display: flex;
     padding-left: 64px;
